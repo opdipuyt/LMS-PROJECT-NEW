@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LMS</title>
+
+
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="login.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+
+
+        <nav>
+            <img src="images/litmos-logo.svg" alt="">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fa-solid fa-xmark"></i>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="active"  href="login.html">Log in</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menu.png" alt="">
+            </div>
+
+        </nav>
+
+
+        <section id="home">
+            <!-- <h2>Achieve your career goals with litmos Plus</h2> -->
+            <!-- <p> Join the 91% of learners who achieved a positive career outcome, like new job opportunities,  -->
+                <!-- increased knowledge, and improved performance at work.¹</p> -->
+            <div class="btn">
+                <!-- <a class="blue" href="#">Learn More</a> -->
+                <!-- <a class="yellow" href="#">Visit Courses</a> -->
+            </div>
+        </section>
+
+
+        <div class="login-container">
+
+    <div class="login-box">
+
+        <!-- Close Button -->
+        <a href="index.html" class="close-btn">
+            <i class="fas fa-times"></i>
+        </a>
+
+        <h2>Log in or create account</h2>
+        <p class="subtitle">
+            Learn on your own time from top universities and businesses.
+        </p>
+
+        <label>Email *</label>
+        <input type="email" placeholder="name@email.com">
+        <input type="password" placeholder="password">
+
+        <button class="continue-btn">Continue</button>
+
+        <div class="divider">
+            <span>or</span>
+        </div>
+
+        <button class="social-btn google">
+            <i class="fab fa-google"></i> Continue with Google
+        </button>
+
+        <button class="social-btn facebook">
+            <i class="fab fa-facebook-f"></i> Continue with Facebook
+        </button>
+
+        <button class="social-btn apple">
+            <i class="fab fa-apple"></i> Continue with Apple
+        </button>
+
+        <p class="terms">
+            By continuing, you agree to our Terms of Use and Privacy Policy.
+        </p>
+
+    </div>
+
+    </div>
+
+
+        <script>
+            // Navaigation Bar
+            $('#menu-btn').click(function(){
+                $('nav .navigation ul').addClass('active')
+            });
+            $('#menu-close').click(function(){
+                $('nav .navigation ul').removeClass('active')
+            });
+        </script>
+
+    </body>
+
+</html>
+
+
+
+
+
